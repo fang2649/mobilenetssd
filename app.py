@@ -26,7 +26,7 @@ UPLOAD_FOLDER ='static/uploads/'
 DOWNLOAD_FOLDER = 'static/downloads/'
 ALLOWED_EXTENSIONS = {'jpg', 'png','.jpeg'}
 
-lineaccesstoken = 'JXu82PnbymnOLrWhZMpIKJMO8C73p7DsF1Lv8zXkG3nYheEyjrti/51GnW5c/35H03ltzYUkALFqoHZCGTsOcd9p20vsH/vnA56rtaHTh91f/T7KYP/9T7Y8nKyvvg/z+0Tp5GW9LTi3s3TNBeL2sgdB04t89/1O/w1cDnyilFU='
+lineaccesstoken = 'https://fxs-app.herokuapp.com/callback'
 
 line_bot_api = LineBotApi(lineaccesstoken)
 
