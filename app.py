@@ -121,7 +121,7 @@ def callback():
     return '',200
 
 def reply(intent,text,reply_token,id,disname):
-    text_message = TextSendMessage(text="ก็ได้อยู่")
+    text_message = TextSendMessage(text="ก็ได้")
     line_bot_api.reply_message(reply_token,text_message)
 
 def event_handle(event):
