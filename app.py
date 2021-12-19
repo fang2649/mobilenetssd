@@ -153,7 +153,7 @@ def event_handle(event):
             replyObj = TextSendMessage(text="ดีจ้า")
         else :
             replyObj = TextSendMessage(text=msg)
-       line_bot_api.reply_message(rtoken, replyObj)
+        line_bot_api.reply_message(rtoken, replyObj)
     elif msgType == "":
         try:
             message_content = line_bot_api.get_message_content(event['message']['id'])
